@@ -1,0 +1,12 @@
+TZ phot edit - get your APK in 5 minutes (no PC needed)
+
+1. Create a free GitHub account, then a NEW repository (any name, Public or Private).
+2. Upload EVERYTHING from this folder (keep the .github folder!). Easiest: on a PC, drag the
+   folder contents into the repo page. On phone: use the GitHub app/web "Add file > Upload files".
+3. Open the repo > Actions tab > "Build TZ phot edit APK" > Run workflow (it also runs on every push).
+4. When it turns green (about 3-6 min), open the run > Artifacts > download "TZ-phot-edit-apk".
+5. Unzip, install TZ-phot-edit.apk (allow "Install unknown apps").
+
+Android Studio instead: File > Open this folder > Build > Build APK(s).
+
+Tip: tag a version (git tag v1.0 && git push --tags) and the APK is published under Releases.
